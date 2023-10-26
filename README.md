@@ -1,6 +1,6 @@
-# shayanChat
+# ShayanChat
 
-## Motivation
+# Motivation
 
 The shayanChat app was born out of a deep-seated passion for enhancing human connections in the digital realm. In an era where communication has become increasingly fragmented and impersonal, our driving force is to create a platform that fosters genuine, meaningful interactions. We believe in the transformative power of technology to bridge gaps, cultivate understanding, and nurture relationships that transcend geographical boundaries. Our relentless pursuit of this vision fuels every aspect of ChatApp, propelling us to constantly innovate and create a space where people can truly connect, share, and thrive.
 
@@ -22,7 +22,8 @@ The shayanChat app was born out of a deep-seated passion for enhancing human con
 *  **trailingComma:** all
 
 # Interface ScreenShots
-<img src="./readmeImages/images.png" width="800">
+<img src="./readmeImages/first.png" width="800">
+<img src="./readmeImages/second2.png" width="800">
 
 
 # Technology & Framework used
@@ -72,7 +73,7 @@ npm run ios
 yarn ios
 ```
 
-## Prerequisites
+# Prerequisites
 To run this project, you will need following installed on your machine.
 
 ### Requirements for Running the app on Android Emulator

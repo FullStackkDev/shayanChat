@@ -17,7 +17,10 @@ import {
   validateEmail,
   validatePassword,
   signup,
+  handleGoogleLogin,
+  handleFacebookLogin,
 } from '../Contants/Utils';
+import {IconButton} from 'react-native-paper';
 import Colors from '../Contants/Colors';
 
 const SignupScreen = (props: any) => {
@@ -120,6 +123,20 @@ const SignupScreen = (props: any) => {
               <Text style={styles.signupText}>Sign Up</Text>
             )}
           </TouchableOpacity>
+          <View style={styles.socialButtons}>
+            <TouchableOpacity onPress={() => handleGoogleLogin(navigation)}>
+              <Image
+                source={require('../../assests/images/google.png')}
+                style={styles.socialIcons}
+              />
+            </TouchableOpacity>
+            <IconButton
+              icon="facebook"
+              size={33}
+              iconColor='#4267B2'
+              onPress={() => handleFacebookLogin(navigation)}
+            />
+          </View>
         </ScrollView>
       </KeyboardAvoidingView>
     </SafeAreaView>
@@ -186,6 +203,16 @@ const styles = StyleSheet.create({
     fontSize: 12,
     marginLeft: 30,
     alignSelf: 'flex-start',
+  },
+  socialButtons: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 15,
+  },
+  socialIcons: {
+    height: 40,
+    width: 40,
   },
 });
 
