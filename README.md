@@ -22,8 +22,7 @@ The shayanChat app was born out of a deep-seated passion for enhancing human con
 *  **trailingComma:** all
 
 # Interface ScreenShots
-<img src="./readmeImages/first.png" width="800">
-<img src="./readmeImages/second2.png" width="800">
+<img src="./readmeImages/demo.png" width="800">
 
 
 # Technology & Framework used
